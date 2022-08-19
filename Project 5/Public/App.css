@@ -1,0 +1,90 @@
+body {
+    font-family: "American Typewriter", serif;
+    background-color: #8c92ac;
+    color: #838996;
+    max-width: 500px;
+    margin: auto;
+    padding: 0%;
+  }
+
+h1 {
+    font-family: "American Typewriter", serif;
+    font-size: 50px;
+    color: #9c7c38;
+    margin: 0%;
+    padding: 2px;
+  }
+
+p {
+    font-family: "American Typewriter", serif;
+    font-size: 14px;
+    color: #9c7c38;
+    margin: 0%;
+    padding: 2px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .users {
+    font-family: "American Typewriter", serif;
+    font-size: 14px;
+    text-align: center;
+    color: #9c7c38;
+    border-style: groove;
+    border-color: #4E9CAF;
+    border-radius: 40px 20px;
+    background: #000000;
+    margin: 0%;
+    padding: 2px;
+  }
+
+  .my-footer {
+    background-color: #560319;  
+    color: #FAEBD7; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    bottom: 0;
+    left: 50%;
+    margin-left: -250px;
+    position:fixed;
+    width: 500px;
+    height: 100px; 
+  }
+  
+  .my-header {
+    background-color: #560319;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    min-height: 15vh;
+  }
+
+  .button {
+    display: block;
+    width: 150px;
+    height: 10px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px 50px; 
+    color: white;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+}
