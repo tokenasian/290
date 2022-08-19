@@ -1,0 +1,117 @@
+body {
+  font-family: "American Typewriter", serif;
+  
+  background-color: #B8860B;
+  color: #FFFFFF;
+  margin: 0%;
+  padding: 0%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #B8860B;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(px + 2vmin);
+  color: #FFFFFF;
+}
+
+main {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0%;
+  padding: 2px;
+}
+
+h1 {
+  font-family: "Luminari", fantasy;
+  font-size: 50px;
+  color: #4169E1;
+  margin: 0%;
+  padding: 2px;
+}
+
+h2 {
+  font-family: "Luminari", fantasy;
+  font-size: 50px;
+  color: #4169E1;
+  margin: 0%;
+  padding: 2px;
+}
+
+footer {
+  background-color: #B8860B;
+  color: #FFFFFF;
+}
+
+nav a {
+  color: #FFFFFF;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2%;
+}
+
+caption{
+  color: #4169E1;
+  font-family: "Luminari", fantasy;
+  font-size: 50px;
+  margin: 0%;
+  padding: 2px;
+}
+
+tr th {
+  background-color: #228B22;
+  color: #FFFFFF;
+  border: #228B22;
+  border-style: inset;
+  border-width: 3px;
+}
+
+tr td {
+  border: #228B22;
+  border-style: dashed;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+fieldset {
+  font-family: "American Typewriter", serif;
+}
+
+legend {
+  font-family: "American Typewriter", serif;
+}
+
+label {
+  font-family: "American Typewriter", serif;
+  padding: 5px;
+}
+
+input {
+  font-family: "American Typewriter", serif;
+  min-width: 5em;
+}
+
+button {
+  font-family: "American Typewriter", serif;
+}
+
+h6 {
+  margin: 0%;
+  padding: 5px;
+}
